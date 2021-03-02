@@ -76,7 +76,7 @@ const useStyles = makeStyles(() => ({
     bottom: '46.9%',
     fontFamily: 'Poppins, sans-serif',
     fontStyle: 'normal',
-    fontWeight: 100,
+    fontWeight: 300,
     fontSize: '16px',
     lineHeight: '30px',
     color: '#818181',
