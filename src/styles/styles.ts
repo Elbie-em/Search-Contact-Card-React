@@ -49,12 +49,38 @@ const useStyles = makeStyles(() => ({
   },
   profileImage: {
     position: 'absolute',
-    left: '11%',
+    left: '6.7%',
     right: '-7.63%',
     top: '4%',
     bottom: '-8.65%',
     height: '70px',
     width: '70px'
+  },
+  contactName: {
+    position: 'absolute',
+    left: '28.61%',
+    right: '25.5%',
+    top: '24.83%',
+    bottom: '61.38%',
+    fontFamily: 'Poppins, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: 500,
+    fontSize: '20px',
+    lineHeight: '10px'
+  },
+  connectionStatus: {
+    position: 'absolute',
+    left: '28.61%',
+    right: '21.94%',
+    top: '42.07%',
+    bottom: '46.9%',
+    fontFamily: 'Poppins, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: 100,
+    fontSize: '16px',
+    lineHeight: '30px',
+    color: '#818181',
+    mixBlendMode: 'normal',
   }
 }));
 
