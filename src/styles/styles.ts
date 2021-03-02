@@ -49,10 +49,12 @@ const useStyles = makeStyles(() => ({
   },
   profileImage: {
     position: 'absolute',
-    left: '-0.54%',
+    left: '11%',
     right: '-7.63%',
-    top: '0.48%',
+    top: '4%',
     bottom: '-8.65%',
+    height: '70px',
+    width: '70px'
   }
 }));
 
