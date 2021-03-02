@@ -39,6 +39,20 @@ const useStyles = makeStyles(() => ({
     height: '98px',
     left: '6px',
     top: '-6px',
+  },
+  scoreChart: {
+    position: 'absolute',
+    width: '88.75px',
+    height: '88.75px',
+    left: 'calc(50% - 88.75px/2 + 0.59px)',
+    top: 'calc(50% - 88.75px/2 - 0.38px)',
+  },
+  profileImage: {
+    position: 'absolute',
+    left: '-0.54%',
+    right: '-7.63%',
+    top: '0.48%',
+    bottom: '-8.65%',
   }
 }));
 
