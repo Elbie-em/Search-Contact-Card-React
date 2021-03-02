@@ -55,5 +55,5 @@ $ npm start
 
 ## Acknowledgments
 
-- Together Price
-- Figma
+- [Together Price](https://www.togetherprice.com/us/)
+- [Figma](https://www.figma.com/file/jLnhIq23Pdui2wJr7k0jwV/testv2?node-id=1%3A207)
