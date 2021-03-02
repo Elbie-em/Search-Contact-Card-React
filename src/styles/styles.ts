@@ -1,9 +1,12 @@
 import { makeStyles } from '@material-ui/core/styles'
-import { group } from 'console';
+import { cursorTo } from 'readline';
 
 const useStyles = makeStyles(() => ({
   scContainer: {
     position: 'relative',
+    marginLeft:'auto',
+    marginRight:'auto',
+    top: '100px',
     width: '366.17px',
     height: '145px',
   },
@@ -49,12 +52,12 @@ const useStyles = makeStyles(() => ({
   },
   profileImage: {
     position: 'absolute',
-    left: '6.7%',
+    left: '11%',
     right: '-7.63%',
-    top: '4%',
+    top: '8.5%',
     bottom: '-8.65%',
-    height: '70px',
-    width: '70px'
+    height: '64px',
+    width: '64px'
   },
   contactName: {
     position: 'absolute',
@@ -81,6 +84,43 @@ const useStyles = makeStyles(() => ({
     lineHeight: '30px',
     color: '#818181',
     mixBlendMode: 'normal',
+  },
+  exLink: {
+    position: 'absolute',
+    left: '50px',
+    top: '9px',
+    fontFamily: 'Poppins, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: 300,
+    fontSize: '16px',
+    lineHeight: '21px',
+    color: '#8463E7',
+    mixBlendMode: 'normal',
+    cursor: 'pointer'
+  },
+  btnAdd: {
+    position: 'absolute',
+    background: '#EAE8FF',
+    left: '82.15%',
+    right: '5.1%',
+    top: '20%',
+    bottom: '42.07%',
+    color: '#794BFF',
+    border: '1px solid #794BFF',
+    padding:'8px',
+    borderRadius: '6px',
+    cursor: 'pointer'
+  },
+  scoreNumber: {
+    position: 'absolute',
+    left: '28px',
+    top:'-8px',
+    width: '27px',
+    height: '27px',
+    background: '#6A3EEA',
+    color: '#fff',
+    zIndex: 1,
+    fontSize: '13px',
   }
 }));
 
