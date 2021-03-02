@@ -52,7 +52,7 @@ const useStyles = makeStyles(() => ({
   },
   profileImage: {
     position: 'absolute',
-    left: '11%',
+    left: '10.5%',
     right: '-7.63%',
     top: '8.5%',
     bottom: '-8.65%',
