@@ -7,17 +7,22 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-const GradientProgress = () => {
+interface GradProps {
+  value: number;
+  size: number;
+}
+
+const GradientProgress = ({value,size}: GradProps) => {
   const classes = useStyles({});
   return (
     <>
       <svg width="1" height="1">
         <linearGradient id="linearColors" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="5%" stopColor="#FA5D75" />
-          <stop offset="100%" stopColor="#7864F6" />
+          <stop offset="10%" stopColor="#FA5D75" />
+          <stop offset="40%" stopColor="#7864F6" />
         </linearGradient>
       </svg>
-      <CircularProgress variant="determinate" value={75} size={80} classes={{ circle: classes.progress }} />
+      <CircularProgress variant="determinate" value={value} size={size} classes={{ circle: classes.progress }} />
     </>
   )
 }
