@@ -5,22 +5,28 @@ import React from 'react'
 import useStyles from '../styles/styles'
 import GradientProgress from './GradientProgress';
 
-const SearchContactCard = () => {
+interface SContactProps {
+  name: string;
+  imgUrl: string;
+  score: number;
+}
+
+const SearchContactCard = ({name,imgUrl,score}: SContactProps) => {
   const classes = useStyles({});
   return (
     <div className={classes.scContainer}>
       <div className={classes.profileCard}>
         <div className={classes.group622}>
-         <Avatar className={classes.scoreNumber}>{75}</Avatar>
+         <Avatar className={classes.scoreNumber}>{score}</Avatar>
           <div className={classes.scoreChart}>
-            <GradientProgress value={75} size={80} />
-            <Avatar className={classes.profileImage} alt="randomUser" src="https://randomuser.me/api/portraits/women/56.jpg" />
+            <GradientProgress value={score} size={80} />
+            <Avatar className={classes.profileImage} alt="randomUser" src={imgUrl} />
           </div>
         </div>
       </div>
       <div className={classes.rect174}>
         <Typography className={classes.contactName}>
-          Gina Snelly
+          {name}
         </Typography>
         <Typography className={classes.connectionStatus}>
           nessuna connessione
