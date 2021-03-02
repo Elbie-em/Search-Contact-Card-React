@@ -1,4 +1,5 @@
-import { Avatar } from '@material-ui/core';
+import { Avatar, Typography } from '@material-ui/core';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles'
 import React from 'react'
 import useStyles from '../styles/styles'
 import GradientProgress from './GradientProgress';
@@ -16,7 +17,12 @@ const SearchContactCard = () => {
         </div>
       </div>
       <div className={classes.rect174}>
-
+        <Typography className={classes.contactName}>
+          Gina Snelly
+        </Typography>
+        <Typography className={classes.connectionStatus}>
+          nessuna connessione
+        </Typography>
       </div>
       <div className={classes.rect175}>
 
